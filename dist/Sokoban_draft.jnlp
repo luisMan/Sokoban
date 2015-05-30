@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Sokoban_draft.jnlp">
+  <information>
+    <title>Sokoban_draft</title>
+    <vendor>Paul</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Sokoban_draft.jar" size="44707" download="eager" />
+    <jar href="lib/PropertiesManager.jar" size="5431" download="eager" />
+    <jar href="lib/XMLUtilities.jar" size="7496" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Sokoban_draft" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="application.Main"  name="Sokoban_draft" />
+  <update check="always"/>
+</jnlp>
